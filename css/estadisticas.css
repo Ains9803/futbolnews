@@ -1,0 +1,51 @@
+.navbar {
+    position: relative;
+    top: 60px;
+    text-align: center;
+     
+   
+}
+
+#stat-type {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+#stats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stats-table {    
+    position: relative;
+    top: 50px;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stats-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.stats-table th, .stats-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.stats-table th {
+    background-color: #00A651 ;
+    color: white;
+}
+
+.stats-table tr:nth-child(odd) {
+     background-color: #F4F4F4 ;
+}
+
